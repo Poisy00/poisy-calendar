@@ -1,7 +1,7 @@
 export interface PalmResponse {
-  candidates: Array<{
+  candidates: {
     output: string;
-  }>;
+  }[];
 }
 
 export interface GoogleCalendarResponse {
